@@ -1,6 +1,6 @@
 function pipeau() {
 var btn = document.createElement("DIV");
-  btn.innerHTML = 'coucouc le monde et le reste ';
+  btn.innerHTML = 'coucou le monde et le reste du monde avec des plugins';
   return btn;
 }
 

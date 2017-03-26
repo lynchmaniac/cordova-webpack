@@ -2,11 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Webpack App</title>
+    <title>@@title</title>
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css"> 
   </head>
-  <body>
+  <body id="bgImage">
     <script type="text/javascript" src="cordova.js"></script>
-    <h1>Le codeLab qui tue johann AAAAAAAAAAAAAAArrrrrgggggghhhhhhhhh!!!!!!!</h1>
+    <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+    @@AAAAAAAA@@
+    function alertDismissed() {
+        // do something
+    }
+
+    function onDeviceReady() {
+      var deviceName = cordova.plugins.deviceName;
+        navigator.notification.alert(
+          'You are the winner !!! - ' + deviceName.name,  // message
+          alertDismissed,         // callback
+          'Game Over',            // title
+          'Fermer'                  // buttonName
+    );
+
+    }
+    </script>
+    <h1>Le codeLab qui tue trop bien !!!!!!!</h1>
     <h2>youhou le reload trop coool</h2>
+    <h2>et vive le prepare     </h2>
   </body>
 </html>
